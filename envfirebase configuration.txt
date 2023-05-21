@@ -1,0 +1,6 @@
+'firebase' => [
+    'driver' => 'firebase',
+    'project_id' => env('inventory-management-99b9a'),
+    'key_file' => env('./inventory-management-99b9a-key'),
+    'database_url' => env('inventory-management/database'),
+],
